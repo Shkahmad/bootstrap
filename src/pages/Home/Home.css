@@ -1,0 +1,49 @@
+.cards {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  gap: 15px;
+}
+.cards-1 {
+  display: flex;
+  gap: 15px;
+}
+.card-into {
+  transition: all 0.5s;
+  padding: 0 0.5rem;
+  box-shadow: 0 1px 10px 0px black;
+}
+.card-into > h1 {
+  font-size: 2rem;
+}
+.card-into > p {
+  font-size: 1rem;
+}
+.card-into:hover {
+  background-color: aqua;
+  color: #fff;
+}
+
+.bootstrap {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+@media (max-width: 992px) {
+  .cards {
+    display: block;
+  }
+  .cards-1 {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cards-1 {
+    display: block;
+  }
+  .card-into {
+    padding: 2rem 2rem;
+    margin: 15px 20px 0 20px;
+  }
+}

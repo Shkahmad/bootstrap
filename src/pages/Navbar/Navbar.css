@@ -1,0 +1,12 @@
+.navbar {
+  justify-content: center;
+}
+.F-T-L {
+  width: 25px;
+  height: 16px;
+}
+@media (max-width: 992px) {
+  .Nav-icons {
+    display: none;
+  }
+}
